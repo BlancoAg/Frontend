@@ -7,7 +7,7 @@ import { Skills } from '../models/skills'
   providedIn: 'root'
 })
 export class SkillsService {
-private apiServerUrl='http://localhost:8080';
+private apiServerUrl='https://portfolioagusblan.herokuapp.com';
 
   constructor(private http:HttpClient) { }
 

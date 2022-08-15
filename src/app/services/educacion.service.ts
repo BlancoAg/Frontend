@@ -7,7 +7,7 @@ import { Educacion } from '../models/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-private apiServerUrl='http://localhost:8080';
+private apiServerUrl='https://portfolioagusblan.herokuapp.com';
 
   constructor(private http:HttpClient) { }
 
