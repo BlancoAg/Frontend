@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+             <a class="navbar-brand" href="#"><img src="../../../assets/APLogo-20-20.png"></a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#social" aria-controls="social" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+             </button>
+            </div>
+            <div class="collapse navbar-collapse" id="social">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="../../../assets/gh.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="../../../assets/li.png"></a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="../../../assets/fb.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="../../../assets/yt.png"></a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged" >INGRESO</button>
+                  <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
+                </li>
+              </ul>
+            </div>
+         </nav> 
+    </div>
+        
+</div>
+    
+<div class="row banner">
+    <div class="container-fluid">
+    <img src="../../../assets/IMG_20220514_173544.jpg" alt="banner">
+    </div>
+</div>

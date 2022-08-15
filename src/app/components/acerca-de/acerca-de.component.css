@@ -1,0 +1,35 @@
+.pf-pic{
+    border-radius: 50%;
+    width: 252px;
+    height: 252px;
+    margin-top: -250px;
+    z-index: 1;
+    box-shadow: 3px 3px 3px firebrick;
+}
+
+.row{
+    background-color: #CE1212;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+@media (min-width: 576px){
+    .acerca{
+        text-align: left;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 575px){
+    .pf-pic{
+        width: 152px;
+        height: 152px;
+        margin-top: -110px;
+    }
+}
+
+#nombre{
+    margin-top: 10%;
+    font-weight: bold;
+}
